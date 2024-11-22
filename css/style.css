@@ -1,0 +1,119 @@
+/* * {
+    outline: 1px solid red; 
+} */
+
+.heading-text{
+    font-size: 34px;
+}
+
+.cols-padding {
+    padding: 100px 0px;
+}
+
+.nav-bar{
+    width: 100%;
+    position: absolute !important;
+    z-index: 99;
+  }
+
+.nav-bar::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/images/Line1.png");
+    background-size: cover;
+    z-index: -2;
+  }
+
+
+
+.text-font{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.banner-section {
+    background-color: #0F0F0F;
+    padding: 120px 15px !important;
+    position: relative;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+.banner-container {
+    margin: 0 auto; /* Center align the container */
+    max-width: 1200px; /* Set a max width for better layout */
+    padding: 0 15px; /* Add internal padding */
+}
+
+.banner-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 50%;
+    background-image: url("../assets/images/banner-background-1.png");
+    background-size: cover;
+    z-index: -1;
+}
+
+
+/* banner images  */
+
+
+.front-text{
+    margin-left: 20px;
+}
+.front-text h1{
+    padding-top: 20px;
+   font-size: 84px;
+}
+
+
+/* product section  */
+
+.product .producttext {
+    margin-left: 20px;
+}
+
+.product .producttext .producttext-front .product-text-1 h3{
+
+        font-size: 34px;
+        border-bottom: #A1A1A1 1px solid;     
+}
+.product .producttext .producttext-front .product-text-1 h3{
+
+    font-size: 34px;    
+}
+.product .producttext .producttext-front .product-text-1 p{
+
+    font-size: 20px;
+}
+.product .producttext  .product-text-2 p{
+
+    font-size: 20px;
+    
+}
+
+
+/* detail section  */
+
+.detail{
+    position: relative;
+}
+.detail::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-image: url("../assets/images/section-2-backgroundimage.png");
+    background-size: cover;
+    z-index: -1;
+}
