@@ -59,3 +59,11 @@ img{
 .banner-second-image{
     margin-top: -200px ;
 }
+
+
+/* option-section  */
+
+.option-section-contaier{
+    padding : 100px 0px 100px 0px ;
+    background-color: #EBFFFF;
+}
