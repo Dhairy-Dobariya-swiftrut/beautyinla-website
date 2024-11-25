@@ -2,6 +2,10 @@
     outline: 1px solid red; 
 } */
 
+img{
+    max-width: 100%;
+}
+
 .heading-34{
     font-size: 34px;
 }
@@ -230,3 +234,78 @@
     z-index: -1;
 
 }
+
+
+/* appointment  */
+
+ .appointment {
+    padding: 100px 0;
+    background-image: url('../assets/images/section-10-backgroundimage.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call-section-container {
+    position: relative;
+    padding: 60px 0;
+    overflow: hidden;
+    background-color: #EBFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.call-section-container::before {
+    content: '';
+    position: absolute;
+    left: -10%;
+    bottom: 0;
+    width: 70%;
+    height: 50%;
+    opacity: 0.8;
+    background-image: url('../assets/images/section-10-image2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.call-section-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -8%;
+    width: 70%;
+    height: 50%;
+    background-image: url('../assets/images/section-4-background-image-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    z-index: 0;
+    
+}
+
+.leave-img img {
+    max-width: 6%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 1;
+}
+
+.leave-img2 img{
+    max-width : 15%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transform: rotate(180deg);
+}
+
+
+
+.call-section h4,
+.call-section p {
+    line-height: 1.6;
+}
+
