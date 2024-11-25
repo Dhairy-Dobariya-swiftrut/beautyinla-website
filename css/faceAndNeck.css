@@ -10,10 +10,10 @@ img{
     font-size: 64px;
 }
 
-.heading-34{
+.font-34{
     font-size: 34px;
 }
-.heading-42{
+.font-42{
     font-size: 42px;
 }
 .font-family{
@@ -21,6 +21,9 @@ img{
 }
 .font-20{
     font-size: 20px;
+}
+.font-22{
+    font-size: 22px;
 }
 .cols-padding {
     padding: 100px 0px;
