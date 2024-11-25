@@ -257,46 +257,57 @@
         
          <!-- gallery section / -->
 
-         <section>
-            <div class="gallery-section">
-                
-            </div>
-         </section>
-         <section class="container mx-auto relative w-full max-w-6xl mx-auto mt-12">
-            <h2 class="text-center text-2xl font-semibold mb-6">Before & After Gallery</h2>
-            
-            <!-- Slider -->
+         <section class="container mx-auto relative w-full max-w-6xl mt-12 px-4">
+           
+          
+            <!-- Swiper -->
             <div class="swiper-container">
+                <div class="gallery-heading flex justify-around my-3 items-center">
+                    <div class="head">
+                        <h2 class="text-center text-2xl font-semibold mb-6">Before & After Gallery</h2>
+                    </div>
+                    <div class="gallery-button flex justify-around">
+                        <div class="swipers-button-prev text-white bg-black/50 py-3 px-5 rounded-full mr-3"> &lt;</div>
+                        <div class="swipers-button-next text-white bg-black/50 py-3 px-5 rounded-full"> &gt;</div>
+                    </div>
+                </div>
               <div class="swiper-wrapper">
                 <!-- Slide 1 -->
                 <div class="swiper-slide flex justify-center">
                   <div class="relative w-3/4">
-                    <img src="assets/images/section-9-image-1.png" alt="Image 1" class="rounded-lg shadow-md">
+                    <img src="assets/images/section-9-image-1.png" alt="Before Image" class="rounded-lg shadow-md">
                     <div class="absolute bottom-2 left-2 bg-black text-white text-sm px-2 py-1 rounded">Before</div>
                   </div>
                 </div>
+          
                 <!-- Slide 2 -->
                 <div class="swiper-slide flex justify-center">
-                  <div class="relative w-3/4 flex" >
-                    <div class="middle-first-image"><img src="assets/images/section-9-image-middle1.png" alt="Image 2" class="rounded-lg shadow-md"></div>
-                    <div class="middle-second-image"><img src="assets/images/section-9-middleimage2.png" alt="Image 2" class="rounded-lg shadow-md"></div>
-                    <div class="absolute bottom-2 right-2 bg-black text-white text-sm px-2 py-1 rounded">After</div>
-                    <div class="absolute bottom-2 left-2 bg-black text-white text-sm px-2 py-1 rounded">Before</div>
+                  <div class="relative w-3/4 flex">
+                    <div class="w-1/2">
+                      <img src="assets/images/section-9-image-middle1.png" alt="Before Image" class="rounded-lg shadow-md">
+                      <div class="absolute bottom-2 left-2 bg-black text-white text-sm px-2 py-1 rounded">Before</div>
+                    </div>
+                    <div class="w-1/2">
+                      <img src="assets/images/section-9-middleimage2.png" alt="After Image" class="rounded-lg shadow-md">
+                      <div class="absolute bottom-2 right-2 bg-black text-white text-sm px-2 py-1 rounded">After</div>
+                    </div>
                   </div>
                 </div>
+          
                 <!-- Slide 3 -->
                 <div class="swiper-slide flex justify-center">
                   <div class="relative w-3/4">
-                    <img src="assets/images/section-9-image-2.png" alt="Image 3" class="rounded-lg shadow-md">
+                    <img src="assets/images/section-9-image-2.png" alt="After Image" class="rounded-lg shadow-md">
+                    <div class="absolute bottom-2 right-2 bg-black text-white text-sm px-2 py-1 rounded">After</div>
                   </div>
                 </div>
               </div>
           
               <!-- Navigation Buttons -->
-              <div class="swiper-button-prev bg-black/50 text-white p-2 rounded-full"></div>
-              <div class="swiper-button-next bg-black/50 text-white p-2 rounded-full"></div>
+              
             </div>
           </section>
+          
           
      
           <!-- call section  -->
@@ -381,37 +392,269 @@
             </div>
         </section>
         
+        <!-- latest-blog  -->
+        <section class="latest-blog-section py-12 bg-gray-50">
+            <div class="container mx-auto">
+              <!-- Section Heading -->
+              <div class="latest-blog-heading flex justify-center mb-8">
+                <h3 class="heading-34 text-center text-2xl font-semibold">Our Latest Blog</h3>
+              </div>
+          
+              <!-- Blog Content -->
+              <div class="flex flex-col lg:flex-row lg:justify-end lg:items-center">
+                <!-- Latest Second Section (large image) -->
+                <div class="latest-second-section w-full lg:w-6/12 mb-6 lg:mb-0 order-1 lg:order-2">
+                  <img
+                    src="assets/images/section-11-image3.png"
+                    alt="latest-blog-image"
+                    class="rounded-lg shadow-md"
+                  />
+                </div>
+          
+                <!-- Latest First Section (list of blogs) -->
+                <div class="w-full lg:w-5/12 order-2 lg:order-1">
+                  <!-- Blog Item 1 -->
+                  <div class="latest-first-section flex items-start mb-6">
+                    <div class="leatest-image mr-4 w-24 h-24">
+                      <img
+                        src="assets/images/section-11-image1.png"
+                        alt="blog-image"
+                        class="rounded-lg shadow-md w-full h-full object-cover"
+                      />
+                    </div>
+                    <div class="latest-contant flex flex-col space-y-2">
+                      <h4 class="font-bold text-lg">Pros and cons of laser hair removal in Los Angeles</h4>
+                      <p class="text-gray-600 text-sm">
+                        Our expert doctor provides laser hair removal services to thousands of happy customers.
+                      </p>
+                      <div class="read-more">
+                        <a href="#" class="text-teal-500 font-medium hover:underline">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- Blog Item 2 -->
+                  <div class="latest-first-section flex items-start mb-6">
+                    <div class="leatest-image mr-4 w-24 h-24">
+                      <img
+                        src="assets/images/section-11-image1.png"
+                        alt="blog-image"
+                        class="rounded-lg shadow-md w-full h-full object-cover"
+                      />
+                    </div>
+                    <div class="latest-contant flex flex-col space-y-2">
+                      <h4 class="font-bold text-lg">Pros and cons of laser hair removal in Los Angeles</h4>
+                      <p class="text-gray-600 text-sm">
+                        Our expert doctor provides laser hair removal services to thousands of happy customers.
+                      </p>
+                      <div class="read-more">
+                        <a href="#" class="text-teal-500 font-medium hover:underline">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- View More Button -->
+                  <div class="latest-button">
+                    <button class="bg-teal-500 hover:bg-teal-700 text-white py-2 px-4 rounded w-full lg:w-auto">
+                      View More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
     </main>
-    <!-- Footer -->
-    <!-- <footer class="bg-black text-white py-10">
-      <div class="container mx-auto text-center">
-        <p>©2024 Beauty In LA. All rights reserved.</p>
-      </div>
+    <!-- <footer>
+        <section>
+            <div class="footer-section bg-black">
+                <div class="container mx-auto flex justify-around items-center">
+                    <div class="w-10/12">
+                        <div class="footer-container flex justify-around items-center">
+                            <div class="w-2/12">
+                                <div class="footer-logo">
+                                    <img src="assets/images/footer-logo.png" alt="logo" class="w-10 h-10">
+                                </div>
+                                <div class="footer-time text-white">
+                                    <p>Mon to Sat: 9:00am – 6:00pm</p>
+                                    <p>Sunday: Closed</p>
+                                </div>
+                            </div>
+                            <div class="w-2/12">
+                                <div class="footer-pages">
+                                    <div class="footer-pages-head text-white">
+                                        <h4>Our Pages</h4>
+                                    </div>
+                                    <div class="footer-pages-text text-white">
+                                        <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">Face and  neck</a></li>
+                                            <li><a href="#">Body</a></li>
+                                            <li><a href="#">Esella</a></li>
+                                            <li><a href="#">Sexual dysfunction</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-3/12">
+                                <div class="footer-contact">
+                                    <div class="footer-contact-header text-white">
+                                        <h4>Contact</h4>
+                                    </div>
+                                    <div class="footer-contact-text text-white">
+                                        <p>707-240-4040</p>
+                                        <p><a href="mailto:info@beautyinla.com" class="hover:text-teal-500">info@beautyinla.com</a></p>
+                                        <p>737 Reseda Blvd, Reseda CA 91335</p>
+                                        <p>2904 Theresa Dr. #3 Newbury Park, CA 9132</p>
+                                        <p>22024 Lassen St #100 Chatsworth, CA 91311</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-3/12">
+                                <div class="footer-news-head text-white">
+                                    <h4>Subscribe Our News Letter</h4>
+                                </div>
+                                <div class="footer-news-text">
+                                    <form class="flex">
+                                        <input
+                                          type="email"
+                                          placeholder="Enter Your Email"
+                                          class="bg-gray-700 border border-gray-600 text-gray-300 text-sm rounded-l-md px-4 py-2 focus:outline-none focus:ring-1 focus:ring-teal-500"
+                                        />
+                                        <button
+                                          type="submit"
+                                          class="bg-teal-500 text-white px-4 py-2 rounded-r-md hover:bg-teal-600"
+                                        >
+                                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10l9-7 9 7-9 7-9-7z" />
+                                          </svg>
+                                        </button>
+                                      </form>
+                                      <div class="footer-social-media flex justify-around">
+                                            <div class="facebook">
+                                                <img src="assets/images/facebook.png" alt="facebook" class="w-10 h-10">
+                                            </div>
+                                            <div class="insta">
+                                                <img src="assets/images/instagram.png" alt="">
+                                            </div>
+                                            <div class="youtube">
+                                                <img src="assets/images/youtube.png" alt="">
+                                            </div>
+                                            <div class="google">
+                                                <img src="assets/images/google.png" alt="">
+                                            </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="container mx-auto text-center">
+                    <p>©2024 Beauty In LA. All rights reserved.</p>
+                  </div>
+            </div>
+        </section>
     </footer> -->
+   
+    <footer>
+        <section>
+          <div class="footer-section bg-black py-10">
+            <div class="container mx-auto px-8 lg:px-20">
+              <!-- Footer Content -->
+              <div class="flex flex-wrap justify-between">
+                <!-- Footer Logo and Timing -->
+                <div class="w-full md:w-3/12 lg:w-2/12 mb-8 md:mb-0">
+                  <div class="footer-logo mb-4">
+                    <img src="assets/images/footer-logo.png" alt="logo" class="w-12 h-12 mx-auto md:mx-0">
+                  </div>
+                  <div class="footer-time text-white text-sm text-center md:text-left">
+                    <p>Mon to Sat: 9:00am – 6:00pm</p>
+                    <p>Sunday: Closed</p>
+                  </div>
+                </div>
+      
+                <!-- Our Pages Section -->
+                <div class="w-full md:w-3/12 lg:w-2/12 mb-8 md:mb-0">
+                  <div class="footer-pages">
+                    <h4 class="text-white font-semibold text-lg mb-4 text-center md:text-left">Our Pages</h4>
+                    <ul class="text-white space-y-2 text-center md:text-left">
+                      <li><a href="#" class="hover:text-teal-500">Home</a></li>
+                      <li><a href="#" class="hover:text-teal-500">Face and Neck</a></li>
+                      <li><a href="#" class="hover:text-teal-500">Body</a></li>
+                      <li><a href="#" class="hover:text-teal-500">Esella</a></li>
+                      <li><a href="#" class="hover:text-teal-500">Sexual Dysfunction</a></li>
+                    </ul>
+                  </div>
+                </div>
+      
+                <!-- Contact Section -->
+                <div class="w-full md:w-6/12 lg:w-4/12 mb-8 md:mb-0">
+                  <div class="footer-contact">
+                    <h4 class="text-white font-semibold text-lg mb-4 text-center md:text-left">Contact</h4>
+                    <div class="text-white text-sm space-y-2 text-center md:text-left">
+                      <p>707-240-4040</p>
+                      <p><a href="mailto:info@beautyinla.com" class="hover:text-teal-500">info@beautyinla.com</a></p>
+                      <p>737 Reseda Blvd, Reseda CA 91335</p>
+                      <p>2904 Theresa Dr. #3 Newbury Park, CA 9132</p>
+                      <p>22024 Lassen St #100 Chatsworth, CA 91311</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Newsletter and Social Media -->
+                <div class="w-full md:w-6/12 lg:w-4/12">
+                  <h4 class="text-white font-semibold text-lg mb-4 text-center md:text-left">Subscribe Our Newsletter</h4>
+                  <form class="flex mb-4">
+                    <input
+                      type="email"
+                      placeholder="Enter Your Email"
+                      class="w-8/12 md:w-9/12 bg-gray-700 border border-gray-600 text-gray-300 text-sm rounded-l-md px-4 py-2 focus:outline-none focus:ring-1 focus:ring-teal-500"
+                    />
+                    <button
+                      type="submit"
+                      class="w-4/12 md:w-3/12 bg-teal-500 text-white px-4 py-2 rounded-r-md hover:bg-teal-600"
+                    >
+                      Subscribe
+                    </button>
+                  </form>
+                  <div class="footer-social-media flex justify-center md:justify-start space-x-4">
+                    <a href="#"><img src="assets/images/facebook.png" alt="facebook" class="w-8 h-8"></a>
+                    <a href="#"><img src="assets/images/instagram.png" alt="instagram" class="w-8 h-8"></a>
+                    <a href="#"><img src="assets/images/youtube.png" alt="youtube" class="w-8 h-8"></a>
+                    <a href="#"><img src="assets/images/google.png" alt="google" class="w-8 h-8"></a>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Footer Bottom -->
+              <div class="mt-10 text-center text-white text-sm">
+                <p>©2024 Beauty In LA. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+      
+      
   
     <script src="/js/main.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.swiper-container', {
-            slidesPerView: 1.5,
-            spaceBetween: 20,
-            centeredSlides: true,
-            loop: true,
-            navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-            },
-            breakpoints: {
-            640: {
-                slidesPerView: 2,
-            },
-            1024: {
-                slidesPerView: 3,
-            },
-            },
+        var swiper = new Swiper('.swiper-container', {
+          loop: true,
+          navigation: {
+            nextEl: '.swipers-button-next',
+            prevEl: '.swipers-button-prev',
+          },
+          slidesPerView: 1,
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 5000,
+          },
         });
-    </script>
+      </script>
   </body>
   
 </html>
