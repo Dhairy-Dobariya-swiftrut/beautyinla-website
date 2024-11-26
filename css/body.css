@@ -70,3 +70,20 @@ img{
 .banner-second-image{
     margin-top: -200px ;
 }
+
+/* // option section  */
+.option-section-contaier{
+    padding : 100px 0px 100px 0px ;
+    background-color: #EBFFFF;
+}
+
+/* // body secion  // */
+
+.body-video-image{
+
+    padding: 100px 0px 150px 0px  ;
+    background-image: url('../assets/body-images/fetuares-image-1.png');   
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
