@@ -1,15 +1,16 @@
-/* * {
-    outline: 1px solid red; 
-} */
 
 img{
     max-width: 100%;
 }
 
-.heading-34{
+.font-64{
+    font-size: 64px;
+}
+
+.font-34{
     font-size: 34px;
 }
-.heading-42{
+.font-42{
     font-size: 42px;
 }
 .font-family{
@@ -18,8 +19,15 @@ img{
 .font-20{
     font-size: 20px;
 }
+.font-22{
+    font-size: 22px;
+}
 .cols-padding {
     padding: 100px 0px;
+}
+
+.mini-padding{
+    padding: 50px 0px;
 }
 
 .heading-color{
@@ -30,6 +38,9 @@ img{
     color: #848484 ;
 }
 
+.bg-color1{
+    background-color: #EBFFFF;
+}
 
 
 .nav-bar{
@@ -38,17 +49,18 @@ img{
     z-index: 99;
   }
 
-.nav-bar::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../assets/images/Line1.png");
-    background-size: cover;
-    z-index: -2;
-  }
+
+/* main banner  */
+
+
+.main-banner{
+    padding: 120px 0px 60px 0px;
+    background-color: #0F0F0F;
+}
+
+.banner-second-image{
+    margin-top: -120px ;
+}
 
 
 
@@ -60,29 +72,7 @@ img{
     color: #fff;
 }
 
-.banner-section {
-    background-color: #0F0F0F;
-    padding: 120px 15px !important;
-    position: relative;
-    overflow-x: hidden; /* Prevent horizontal overflow */
-}
-.banner-container {
-    margin: 0 auto; /* Center align the container */
-    max-width: 1200px; /* Set a max width for better layout */
-    padding: 0 15px; /* Add internal padding */
-}
 
-.banner-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 30%;
-    height: 50%;
-    background-image: url("../assets/images/banner-background-1.png");
-    background-size: cover;
-    z-index: -1;
-}
 
 
 /* banner images  */
