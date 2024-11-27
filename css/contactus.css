@@ -1,0 +1,73 @@
+/* * {
+    outline: 1px solid red; 
+} */
+
+img{
+    max-width: 100%;
+}
+
+.font-64{
+    font-size: 64px;
+}
+
+.font-34{
+    font-size: 34px;
+}
+.font-42{
+    font-size: 42px;
+}
+.font-family{
+    font-family: 'Courier New', Courier, monospace;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-22{
+    font-size: 22px;
+}
+.cols-padding {
+    padding: 100px 0px;
+}
+
+.mini-padding{
+    padding: 50px 0px;
+}
+
+.heading-color{
+    color :#0F0F0F;
+}
+
+.text-color{
+    color: #848484 ;
+}
+
+.bg-color1{
+    background-color: #EBFFFF;
+}
+
+
+ /* header  */
+
+ .nav-bar{
+    width: 100%;
+    position: absolute !important;
+    z-index: 99;
+  }
+
+
+/* main banner  */
+
+
+.main-banner{
+    padding: 120px 0px 60px 0px;
+    background-color: #0F0F0F;
+}
+
+.banner-second-image{
+    margin-top: -200px ;
+}
+
+
+.map iframe{
+    height: 400px;
+}
