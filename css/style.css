@@ -89,46 +89,14 @@ img{
 
 /* product section  */
 
-.product .producttext {
-    margin-left: 20px;
-}
 
-.product .producttext .producttext-front .product-text-1 h3{
 
-        font-size: 34px;
-        border-bottom: #A1A1A1 1px solid;     
-}
-.product .producttext .producttext-front .product-text-1 h3{
 
-    font-size: 34px;    
-}
-.product .producttext .producttext-front .product-text-1 p{
 
-    font-size: 20px;
-}
-.product .producttext  .product-text-2 p{
-
-    font-size: 20px;
-    
-}
 
 
 /* detail section  */
 
-.detail .details-section{
-    position: relative;
-}
-.detail .details-section::before{
-    content: "";
-    position: absolute;
-    top: -130;
-    left: 0;
-    width: 70%;
-    height: 100%;
-    background-image: url("../assets/images/section-2-backgroundimage.png");
-    background-size: cover;
-    z-index: -1;
-}
 
 
 
