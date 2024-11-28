@@ -1,3 +1,15 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700 */
+
+.cormorant{
+  font-family: "Cormorant", serif;
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+
 
 img{
     max-width: 100%;
@@ -85,20 +97,6 @@ img{
     padding-top: 20px;
    font-size: 84px;
 }
-
-
-/* product section  */
-
-
-
-
-
-
-
-/* detail section  */
-
-
-
 
 
 /* blog section  */

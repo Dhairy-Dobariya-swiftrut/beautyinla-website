@@ -1,7 +1,13 @@
 /* * {
     outline: 1px solid red; 
 } */
-
+.cormorant{
+    font-family: "Cormorant", serif;
+  }
+  
+  .raleway {
+      font-family: "Raleway", sans-serif;
+  }
 img{
     max-width: 100%;
 }
