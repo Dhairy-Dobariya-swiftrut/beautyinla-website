@@ -85,40 +85,45 @@
         <!-- main-banner  -->
         <section>
             <div class="main-banner relative truncate">
-                <div class="main-banner-background-image absolute top-0 left-[-7%] w-full h-full ">
+                <div class="main-banner-background-image absolute top-0 left-[-7%] w-full h-full">
                     <img src="assets/faceAdNecks-images/banner-vector.png" alt="main banner image">
                 </div>
                 <div class="container mx-auto flex justify-center">
-                    <div class="w-10/12">
+                    <div class="w-10/12 lg:w-8/12 xl:w-10/12">
                         <div class="main-banner-container">
-                            <div class="w-full flex relative">
-                                <div class="star-background-image absolute top-[-6%] right-[15%]">
+                            <div class="w-full flex flex-row lg:flex-row justify-start relative items-center lg:items-start">
+                                <div class="star-background-image absolute top-[-6%] right-[15%] hidden lg:block">
                                     <img src="assets/faceAdNecks-images/star.png" alt="star">
                                 </div>
                                 <div class="banner-first-image text-white">
-                                    <img src="assets/faceAdNecks-images/banner-image-1.png" alt="banner-image">
+                                    <img src="assets/faceAdNecks-images/banner-image-1.png" alt="banner-image" class="max-w-full">
                                 </div>
-                                <div class="banner-heading font-64 text-white ml-8"><h2 class="cormorant">FACE & NECK</h2></div>
+                                <div class="banner-heading text-4xl text-white ml-0 lg:ml-8 mt-4 lg:mt-3 lg:text-6xl">
+                                  <h2 class="cormorant text-start lg:text-left ml-3 lg:ml-0">
+                                      <span class="block lg:inline-block">FACE AND</span>
+                                      <span class="block lg:inline-block">NECK</span>
+                                  </h2>
+                              </div>
                             </div>
-                            <div class="w-11/12 mt-4 relative">    
-                                <div class="leave-background-image absolute top-[-80%] right-[-20%]">
+                            <div class="w-11/12 mt-4 relative">
+                                <div class="leave-background-image absolute top-[-80%] right-[-20%] hidden lg:block">
                                     <img src="assets/faceAdNecks-images/leaves.png" alt="leaves">
                                 </div>
-                                <div class="banner-second-part flex justify-between">
-                                    <div class="banner-second-text">
-                                        <div class="banner-p my-4">
-                                            <p class="text-white raleway">We use premium products for a <br> more natural result.</p>
+                                <div class="banner-second-part flex flex-col xl:flex-row justify-between items-center lg:items-start">
+                                    <div class="banner-second-text text-start w-full xl:w-1/2 lg:text-left order-last xl:order-first ">
+                                        <div class="banner-p my-4 ">
+                                            <p class="text-white raleway ">We use premium products for a <br> more natural result.</p>
                                         </div>
-                                        <div class="banner-crub flex">
+                                        <div class="banner-crub flex justify-start lg:justify-start items-center">
                                             <div class="banner-crub-image mr-3">
-                                                 <a href="index.html"><img src="assets/body-images/home.png" alt="Home"></a>
+                                                <a href="index.html"><img src="assets/body-images/home.png" alt="Home"></a>
                                             </div>
                                             <p class="mr-3 text-white"> > </p>
                                             <p class="text-white raleway">Face and Neck</p>
                                         </div>
                                     </div>
-                                    <div class="banner-second-image ">
-                                        <img src="assets/faceAdNecks-images/banner-image-2.png" alt="banner-image">
+                                    <div class="banner-second-image1 mt-6 xl:-mt-44 order-first xl:order-last">
+                                        <img src="assets/faceAdNecks-images/banner-image-2.png" alt="banner-image" class="max-w-full">
                                     </div>
                                 </div>
                             </div>
@@ -129,236 +134,270 @@
         </section>
 
         <!-- MorpheuS8  -->
-         <section class="cols-padding">
-            <div class="Morpheu container mx-auto relative z-0">
-                <div class="Morpheu-background-img absolute top-[-35%] left-[0%] w-2/12 h-1/6">
-                    <img src="assets/faceAdNecks-images/Morpheu-background-image.png" alt="Morpheu-background-image">
-                </div>
-                <div class="Morpheu-section flex justify-center items-center">
-                    <div class="w-10/12">
-                        <div class="Morpheu-container flex justify-center items-center">
-                            <div class="w-6/12 flex relative z-10">
-                                <div class="morpheu-first-image flex items-start mr-5">
-                                    <img src="assets/faceAdNecks-images/Morpheu-image-1.png" alt="morpheu-first-image">
-                                </div>
-                                <div class="morpheu-second-image flex  mt-12">
-                                    <img src="assets/faceAdNecks-images/Morpheu-image-2.png" alt="morpheu-second-image">
-                                </div>
-                            </div>
-                            <div class="w-6/12">
-                                <div class="morpheu-second-part ml-5">
-                                    <div class="morpheu-heading">
-                                        <h2 class="font-34 cormorant ">MorpheuS8</h2>
-                                    </div>
-                                    <div class="morpheu-text">
-                                        <p class="font-20 my-3 text-color raleway">Safe and Effective Solutions For The Most In-Demand Aesthetic Procedures.</p>
-                                        <p class="font-20 text-color raleway">Optimas Is A Full Beauty Suite That Has State-Of-The-Art Light,Laser,And Radio-Frequency Devices. Discover Innovative Technologies Working Together To Solve Aesthetic Concerns Including Anti-Aging ,Acne,Clarity And Hair Removal.</p>
-                                    </div>
-                                </div>
-                            </div>
+        <section class="cols-padding">
+            <section class="cols-padding py-10">
+              <div class="Morpheu container mx-auto relative z-0">
+                  <!-- Background Image -->
+                  <div class="Morpheu-background-img absolute top-[-35%] left-0 w-1/4 md:w-1/6">
+                      <img src="assets/faceAdNecks-images/Morpheu-background-image.png" alt="Morpheu background image" class="max-w-full">
+                  </div>
+                  
+                  <!-- Section Content -->
+                  <div class="Morpheu-section flex justify-center items-center">
+                      <div class="w-10/12">
+                        <div class="morpheu-heading">
+                          <h2 class="text-3xl lg:text-4xl cormorant font-semibold block lg:hidden text-start mb-3 lg:mb-0">MorpheuS8</h2>
                         </div>
-                    </div>
-                </div>
-            </div>    
-         </section>
+                          <div class="Morpheu-container flex flex-col lg:flex-row justify-center items-center">
+                              <!-- Left Images -->
+                              <div class="w-full lg:w-6/12 flex relative z-10 justify-center lg:justify-start">
+                                  <div class="morpheu-first-image flex items-start mr-5">
+                                      <img src="assets/faceAdNecks-images/Morpheu-image-1.png" alt="Morpheu first image" class="max-w-full">
+                                  </div>
+                                  <div class="morpheu-second-image flex mt-6 lg:mt-12">
+                                      <img src="assets/faceAdNecks-images/Morpheu-image-2.png" alt="Morpheu second image" class="max-w-full">
+                                  </div>
+                              </div>
+          
+                              <!-- Right Text -->
+                              <div class="w-full lg:w-6/12 mt-6 lg:mt-0">
+                                  <div class="morpheu-second-part ml-0 lg:ml-5 text-center lg:text-left">
+                                      <!-- Heading -->
+                                      <div class="morpheu-heading">
+                                          <h2 class="text-3xl lg:text-4xl cormorant font-semibold hidden lg:block">MorpheuS8</h2>
+                                      </div>
+                                      <!-- Text Content -->
+                                      <div class="morpheu-text mt-4">
+                                          <p class="text-lg lg:text-xl text-gray-500 raleway my-3">
+                                              Safe and Effective Solutions For The Most In-Demand Aesthetic Procedures.
+                                          </p>
+                                          <p class="text-lg lg:text-xl text-gray-500 raleway">
+                                              Optimas Is A Full Beauty Suite That Has State-Of-The-Art Light, Laser, And Radio-Frequency Devices. Discover Innovative Technologies Working Together To Solve Aesthetic Concerns Including Anti-Aging, Acne, Clarity, And Hair Removal.
+                                          </p>
+                                      </div>
+                                  </div>
+                              </div>
+          
+                          </div>
+                      </div>
+                  </div>
+        
+              </div>    
+          </section>
+          
+         </section> 
          
 
          <!-- option-section  -->
 
          <section>
             <div class="option-section-contaier relative overflow-hidden">
-                <div class="decoration-fourth-image absolute top-[0%] right-[-60%] w-full h-full z-0">
-                    <img src="assets/faceAdNecks-images/decoration-image-4.png" alt=" decoration-fourth-image">
+                <!-- Background Decorations -->
+                <div class="decoration-fourth-image absolute top-0 right-[0%] w-3/12  z-0 block xl:hidden">
+                    <img src="assets/faceAdNecks-images/decoration-image-4.png" alt="decoration-fourth-image">
                 </div>
-                <div class="decoration-fifth-image absolute bottom-[-8%] left-[0%] w-full h-full z-0">
-                    <img src="assets/faceAdNecks-images/decoration-image-5.png" alt=" decoration-fifth-image">
-                </div>  
-                <div class="decoration-first-image absolute top-[0%] right-[0%] w-1/12 h-1/6 z-0">
-                    <img src="assets/faceAdNecks-images/decoration-image-1.png" alt=" decoration-first-image">
+                <div class="decoration-fifth-image absolute bottom-[0%] left-0 w-3/12  z-0 block xl:hidden">
+                    <img src="assets/faceAdNecks-images/decoration-image-5.png" alt="decoration-fifth-image">
                 </div>
-                <div class="decoration-second-image absolute top-[18%] right-[0%] w-12 h-auto z-0">
-                    <img src="assets/faceAdNecks-images/decoration-image-2.png" alt=" decoration-second-image">
+                <div class="decoration-fourth-image absolute top-0 right-[-60%] w-full h-full z-0 hidden xl:block">
+                    <img src="assets/faceAdNecks-images/decoration-image-4.png" alt="decoration-fourth-image">
                 </div>
-                <div class="decoration-third-image absolute bottom-[-55%] left-[0%] w-1/12 h-full z-0">
-                    <img src="assets/faceAdNecks-images/decoration-image-3.png" alt=" decoration-third-image">
+                <div class="decoration-fifth-image absolute bottom-[-8%] left-0 w-full h-full z-0 hidden xl:block">
+                    <img src="assets/faceAdNecks-images/decoration-image-5.png" alt="decoration-fifth-image">
                 </div>
-                
-                
+                <div class="decoration-first-image absolute top-0 right-0 w-1/12 h-1/6 z-0 hidden xl:block">
+                    <img src="assets/faceAdNecks-images/decoration-image-1.png" alt="decoration-first-image">
+                </div>
+                <div class="decoration-second-image absolute top-[18%] right-0 w-12 h-auto z-0 hidden xl:block">
+                    <img src="assets/faceAdNecks-images/decoration-image-2.png" alt="decoration-second-image">
+                </div>
+                <div class="decoration-third-image absolute bottom-[-55%] left-0 w-1/12 h-full z-0 hidden xl:block">
+                    <img src="assets/faceAdNecks-images/decoration-image-3.png" alt="decoration-third-image">
+                </div>
+        
+                <!-- Main Content -->
                 <div class="container mx-auto flex justify-center relative z-10">
-                    <div class="w-10/12 flex justify-around items-center">
-                        <div class="w-2/12 flex flex-col items-baseline content-around">
-                           
-                            <div class="option-section flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                    <div class="w-10/12 flex flex-wrap justify-around gap-6">
+                        <!-- Option Sections -->
+                        <div class="container mx-auto flex justify-center relative z-10">
+                            <div class="w-10/12 flex flex-wrap justify-around gap-6">
+                                <!-- Part 1 -->
+                                <div class="w-full md:w-1/3 xl:w-1/5 flex flex-col items-baseline mb-6">
+                                    <div class="option-section mb-6 flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
+                                    <div class="option-section mb-6 flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
+                                    <div class="option-section mb-6 flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
+                                    <div class="option-section  flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="option-contant">
-                                    <p>Wrinkle reduction</p>
+                        
+                                <!-- Part 2 -->
+                                <div class="w-full md:w-1/3 xl:w-1/5 flex flex-col items-baseline mb-6">
+                                    <div class="option-section mb-6 flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
+                                    <div class="option-section mb-6 flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
+                                    <div class="option-section mb-6 flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
+                                    <div class="option-section  flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="option-section my-6 flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                        
+                                <!-- Part 3 -->
+                                <div class="w-full md:w-1/3 xl:w-1/5 flex flex-col items-baseline mb-6">
+                                    <div class="option-section mb-6 flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
+                                    <div class="option-section mb-6 flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
+                                    <div class="option-section mb-6 flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
+                                    
                                 </div>
-                                <div class="option-contant">
-                                    <p class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                            <div class="option-section flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                            <div class="option-section mt-6 flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-2/12 flex flex-col items-baseline content-around">
-                           
-                            <div class="option-section flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p  class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                            <div class="option-section my-6 flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p  class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                            <div class="option-section flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p  class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                            <div class="option-section mt-6 flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p  class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-2/12 flex flex-col items-baseline content-around">
-                           
-                            <div class="option-section flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p  class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                            <div class="option-section my-6 flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p  class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                            <div class="option-section flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p  class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                            <div class="option-section mt-6 flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p  class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w-2/12 flex flex-col items-baseline content-around">
-                           
-                            <div class="option-section flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p  class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                            <div class="option-section my-6 flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p  class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                            <div class="option-section flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p  class="cormorant">Wrinkle reduction</p>
-                                </div>
-                            </div>
-                            <div class="option-section mt-6 flex justify-around items-center">
-                                <div class="option-image ">
-                                    <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
-                                </div>
-                                <div class="option-contant">
-                                    <p  class="cormorant">Wrinkle reduction</p>
+                        
+                                <!-- Part 4 -->
+                                <div class="w-full md:w-1/3 xl:w-1/5 flex flex-col items-baseline mb-6">
+                                    <div class="option-section mb-6 flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
+                                    <div class="option-section mb-6 flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
+                                    <div class="option-section mb-6 flex justify-around items-center">
+                                        <div class="option-image">
+                                            <img src="assets/faceAdNecks-images/menu-image.png" alt="menu-image">
+                                        </div>
+                                        <div class="option-contant">
+                                            <p>Wrinkle reduction</p>
+                                        </div>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
-         </section>
+        </section>
 
          <!-- Reduction Section  -->
 
          <section class="cols-padding">
             <div class="Reduction">
-                <div class="container mx-auto ">
+                <div class="container mx-auto">
+                    <!-- Section Heading -->
                     <div class="Reduction-heading text-center mb-8">
-                        <h2 class="font-22 cormorant">Face & Neck Wrinkle Reduction & <span>Anti-Aging</span> </h2>
+                        <h2 class="text-3xl lg:text-4xl cormorant font-bold">
+                            Face & Neck Wrinkle Reduction & <span class="font-normal">Anti-Aging</span>
+                        </h2>
                     </div>
+                    
+                    <!-- Images Section -->
                     <div class="w-full relative">
+                        <!-- Background Image -->
                         <div class="reduction-background-image absolute bottom-[-18%] left-[29.5%] w-5/12 h-full z-0">
-                            <img src="assets/faceAdNecks-images/Ellipse-3.png" alt="middle circule">
+                            <img src="assets/faceAdNecks-images/Ellipse-3.png" alt="middle circle">
                         </div>
+                        
+                        <!-- Main Images -->
                         <div class="Reduction-images flex justify-around items-center relative z-10">
-                            <div class="Reduction-image">
+                            <!-- First Image (Hidden on Small Screens) -->
+                            <div class="Reduction-image1 hidden md:block">
                                 <img src="assets/faceAdNecks-images/Reduction-image-1.png" alt="Reduction-image-1">
                             </div>
+                            
+                            <!-- Middle Image (Always Visible) -->
                             <div class="Reduction-image px-4">
-                                <img src="assets/faceAdNecks-images/Reduction-middle-image.png" alt="Reduction-image-1">
-                            </div>
-                            <div class="Reduction-image">
-                                <img src="assets/faceAdNecks-images/Reduction-image-3.png" alt="Reduction-image-1">
+                                <img src="assets/faceAdNecks-images/Reduction-middle-image.png" alt="Reduction-middle-image">
                             </div>
                             
+                            <!-- Third Image (Hidden on Small Screens) -->
+                            <div class="Reduction-image2 hidden md:block">
+                                <img src="assets/faceAdNecks-images/Reduction-image-3.png" alt="Reduction-image-3">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-         </section>
+        </section>
          
 
          <!-- Radiant section   -->
