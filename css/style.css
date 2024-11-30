@@ -140,87 +140,15 @@ img{
 }
 
 
-
-
 /* body secion  */
 
 .body-video-image{
-
     padding: 100px 0px 150px 0px  ;
     background-image: url('../assets/images/section-5-image-1.png');   
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
-
-
-
-
-.body-video-section{
-
-    margin-bottom: 150px;
-
-}
-
-.body-video-image{
-    position: relative;
-}
-
-.body-video-first-image{
-    position: absolute;
-    width: 40%;
-    top: 70%;
-    left: 7.5%;
-}
-.body-video-second-image{
-    position: absolute;
-    width: 40%;
-    top: 70%;
-    right: 7.5%;
-}
-
-
-
-
-/* question-section  */
-
-
-.question-section{
-    position: relative;
-}
-
-.question-background-image{
-    position: absolute;
-    width: 17%;
-    top: -70px;
-    left : 0px;
-    z-index: -1;
-
-}
-
-
-/* gallery section  */
-
-/* Styling for the gallery */
-
-
-
-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-h2 {
-  font-family: 'Arial', sans-serif;
-  font-weight: 700;
-  color: #000;
-}
-
-
-
 
 
 /* appointment  */
