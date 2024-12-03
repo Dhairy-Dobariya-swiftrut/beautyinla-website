@@ -752,7 +752,7 @@
          <!-- gallery section / -->
         
          <section>
-            <div class="gallery-section">
+            <div class="gallery-section cols-padding">
                 <div class="mx-auto">
                     <div class="gallery-heading text-center relative mb-10">
                         <h3 class="text-3xl font-bold cormorant">Before & <span class="font-normal">After Gallery</span></h3>
@@ -766,7 +766,10 @@
                           </div>
                         </div>
                     </div>
-                    <div class="w-full">
+                    <div class="w-full relative">
+                        <div class="circle absolute top-[20%] left-[31%]">
+                          <img src="assets/images/section-8-middle-image.png" alt="gallery circle" class="w-9/12">
+                        </div>
                         <div class="swiper-container1">
                             <div class="swiper-wrapper flex items-center">
                                 
@@ -842,12 +845,15 @@
      
           <!-- call section  -->
 
-          <section class="cols-padding">
+          <section class="cols-padding mt-40">
             <div class="appointment">
-                <div class="container mx-auto flex flex-col md:flex-row justify-center items-center">
-                    <div class="w-11/12 flex flex-col md:flex-row justify-around items-center">
+                <div class="container mx-auto flex flex-col md:flex-row justify-center items-center ">
+                    <div class="w-11/12 flex flex-col md:flex-row justify-around items-center ">
                         <!-- Call Section -->
-                        <div class="w-full md:w-5/12 call-section-container relative  px-6 py-10 text-center">
+                        <div class="w-full md:w-5/12 call-section-container relative   py-14 text-center rounded-none">
+                            <div class="back-image absolute top-[4%] left-[2%]">
+                                <img src="assets/images/section-10-image1.png" alt="" class=" ">
+                            </div>
                             <div class="leave-img ">
                                 <img src="assets/images/section-4-background-image-3.png" alt="Decoration" >
                             </div>
@@ -856,13 +862,13 @@
                             </div>
                             <div class="call-section ">
                                 <div class="call-content">
-                                    <h4 class="font-bold text-2xl leading-relaxed cormorant cormorant">
+                                    <h4 class="font-bold text-4xl leading-relaxed cormorant relative z-20">
                                         Take The <span class="font-medium ">First Step</span>
                                     </h4>
-                                    <p class="text-lg mt-2 raleway">Call Beauty In Now</p>
+                                    <p class="text-2xl text-semibold mt-2 raleway">Call Beauty In Now</p>
                                 </div>
                                 <div class="call-number mt-4">
-                                    <a href="tel:+919876543210" class="font-medium text-xl raleway">(707) 240 40 40</a>
+                                    <a href="tel:+919876543210" class="font-bold text-4xl raleway">(707) 240 40 40</a>
                                 </div>
                             </div>
                         </div>
@@ -872,39 +878,39 @@
                             <div class="form-section bg-transparent">
                                 <!-- Form Heading -->
                                 <div class="form-heading">
-                                    <h3 class="text-2xl font-bold text-white mb-6 raleway">Make An Appointment</h3>
+                                    <h3 class="text-3xl font-bold text-white mb-6 cormorant">Make An Appointment</h3>
                                 </div>
         
                                 <!-- Form Content -->
                                 <form class="space-y-4">
                                     <!-- Select Input -->
                                     <select
-                                        class="w-full border border-gray-400 bg-transparent text-white placeholder-gray-400 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        class="w-full border border-gray-400 bg-transparent text-white placeholder-gray-400  px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     >
                                         <option value="" disabled selected class="text-gray-500 ">Select Department</option>
                                         <option class="text-black" value="cardiology">Cardiology</option>
                                         <option class="text-black" value="neurology">Neurology</option>
                                         <option class="text-black" value="orthopedics">Orthopedics</option>
                                     </select>
-        
+
                                     <!-- Full Name Input -->
                                     <input
                                         type="text"
                                         placeholder="Full Name"
-                                        class="w-full border border-gray-400 bg-transparent text-white placeholder-gray-400 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        class="w-full border border-gray-400 bg-transparent text-white placeholder-gray-400  px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     />
         
                                     <!-- Phone Number Input -->
                                     <input
                                         type="tel"
                                         placeholder="Phone Number"
-                                        class="w-full border border-gray-400 bg-transparent text-white placeholder-gray-400 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        class="w-full border border-gray-400 bg-transparent text-white placeholder-gray-400  px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     />
         
                                     <!-- Date Input -->
                                     <input
                                         type="date"
-                                        class="w-full border border-gray-400 bg-transparent text-white rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        class="w-full border border-gray-400 bg-transparent text-white  px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                     />
         
                                     <!-- Submit Button -->
@@ -926,35 +932,35 @@
 
         <!-- latest-blog  -->
         <section class="latest-blog-section py-12 bg-gray-50">
-            <div class="container mx-auto">
+            <div class=" mx-auto">
               <!-- Section Heading -->
               <div class="latest-blog-heading flex justify-center mb-8">
-                <h3 class="heading-34 text-center text-2xl font-semibold cormorant">Our Latest Blog</h3>
+                <h3 class="heading-34 text-center text-2xl md:text-4xl font-semibold cormorant">Our Latest <span class="font-normal">Blog</span></h3>
               </div>
           
               <!-- Blog Content -->
               <div class="flex flex-col lg:flex-row lg:justify-end lg:items-center">
                 <!-- Latest Second Section (large image) -->
-                <div class="latest-second-section w-full lg:w-6/12 mb-6 lg:mb-0 order-1 lg:order-2">
+                <div class="latest-second-section w-full lg:w-5/12 mb-6 lg:mb-0 order-1 lg:order-2 flex justify-end">
                   <img
                     src="assets/images/section-11-image3.png"
                     alt="latest-blog-image"
-                    class="rounded-lg shadow-md"
+                    class=" shadow-md"
                   />
                 </div>
           
                 <!-- Latest First Section (list of blogs) -->
-                <div class="w-full lg:w-5/12 order-2 lg:order-1">
+                <div class="w-full lg:w-5/12 order-2 lg:order-1 mr-0 ">
                   <!-- Blog Item 1 -->
                   <div class="latest-first-section flex items-center mb-6">
-                    <div class="leatest-image mr-4 w-24 h-24">
+                    <div class="leatest-image mr-4 w-30 h-30">
                       <img
                         src="assets/images/section-11-image1.png"
                         alt="blog-image"
-                        class="rounded-lg shadow-md w-full h-full object-cover"
+                        class=" shadow-md w-full h-full object-cover"
                       />
                     </div>
-                    <div class="latest-contant flex flex-col space-y-2">
+                    <div class="latest-contant flex flex-col space-y-4">
                       <h4 class="font-bold text-lg raleway">Pros and cons of laser hair removal in Los Angeles</h4>
                       <p class="text-gray-600 text-sm raleway">
                         Our expert doctor provides laser hair removal services to thousands of happy customers.
@@ -968,17 +974,17 @@
                       </div>
                     </div>
                   </div>
-          
+                  
                   <!-- Blog Item 2 -->
                   <div class="latest-first-section flex items-center mb-6">
-                    <div class="leatest-image mr-4 w-24 h-24">
+                    <div class="leatest-image mr-4 w-30 h-30">
                       <img
                         src="assets/images/section-11-image1.png"
                         alt="blog-image"
                         class="rounded-lg shadow-md w-full h-full object-cover"
                       />
                     </div>
-                    <div class="latest-contant flex flex-col space-y-2">
+                    <div class="latest-contant flex flex-col space-y-4">
                       <h4 class="font-bold text-lg ">Pros and cons of laser hair removal in Los Angeles</h4>
                       <p class="text-gray-600 text-sm">
                         Our expert doctor provides laser hair removal services to thousands of happy customers.
@@ -994,8 +1000,8 @@
                   </div>
           
                   <!-- View More Button -->
-                  <div class="latest-button">
-                    <button class="bg-teal-500 hover:bg-teal-700 text-white py-2 px-4 rounded w-full lg:w-auto">
+                  <div class="latest-button inline-block ml-2 md:ml-0">
+                    <button class="bg-teal-500 hover:bg-teal-700 text-white py-2 px-4 rounded w-full lg:w-auto ">
                         <a href="blog.html" class="text-white font-medium hover:underline ">View More</a>
                     </button>
                   </div>
