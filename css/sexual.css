@@ -93,3 +93,7 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bg-footer{
+    background-color: #0F0F0F;
+}
