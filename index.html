@@ -639,7 +639,7 @@
           <div class="body-video-section mb-0 ">
               <div class="container mx-auto flex flex-col lg:flex-row justify-around items-center ">
                   <div class="body-video-image w-full lg:w-11/12 flex justify-center relative">
-                      <div class="w-full  lg:w-11/12 flex flex-col lg:flex-row text-white font-bold pl-1 items-center ">
+                      <div class="w-full   flex flex-col lg:flex-row text-white font-bold pl-1 items-center ">
                           <h2 class="text-2xl text-5xl pl-16 font-bold text-white cormorant text-start">Featured Videos BODY fx</h2>
                       </div>
                       <div class="w-full lg:w-3/12  items-center hidden lg:flex">
@@ -742,6 +742,7 @@
                                   </div>
                               </div>
   
+                              
   
                           </div>
                       </div>
@@ -752,11 +753,20 @@
          <!-- gallery section / -->
         
          <section>
-            <div class="gallery-section cols-padding">
-                <div class="mx-auto">
-                    <div class="gallery-heading text-center relative mb-10">
-                        <h3 class="text-3xl font-bold cormorant">Before & <span class="font-normal">After Gallery</span></h3>
-                        <div class="gallery-button flex justify-around absolute right-[10%] top-[-30%]">
+          <div class="gallery-section cols-padding relative overflow-hidden">
+              <div class="mx-auto">
+                  <div class="gallery-heading text-center relative mb-10">
+                      <h3 class="text-3xl font-bold cormorant">Before & <span class="font-normal">After Gallery</span></h3>
+                      <div class="gallery-button  justify-around absolute  md:right-[10%] md:top-[-30%] hidden lg:flex">
+                        <div class="swipers-button-prev1 text-white  mr-3">
+                            <img src="assets/images/gallry-button.png" alt="gallery button" class="max-w-full">
+                        </div>
+                        <!-- <div class="swipers-button-prev1 text-white bg-black py-3 px-5 mr-3"> &lt;</div> -->
+                        <div class="swipers-button-next1 text-white">
+                          <img src="assets/images/gallery-button-1.png" alt="gallery button" class="max-w-full">
+                        </div>
+                      </div>
+                      <div class="gallery-button  justify-around absolute left-[42%] top-[1500%] flex lg:hidden">
                           <div class="swipers-button-prev1 text-white  mr-3">
                               <img src="assets/images/gallry-button.png" alt="gallery button" class="max-w-full">
                           </div>
@@ -764,82 +774,83 @@
                           <div class="swipers-button-next1 text-white">
                             <img src="assets/images/gallery-button-1.png" alt="gallery button" class="max-w-full">
                           </div>
-                        </div>
-                    </div>
-                    <div class="w-full relative">
-                        <div class="circle absolute top-[20%] left-[31%]">
-                          <img src="assets/images/section-8-middle-image.png" alt="gallery circle" class="w-9/12">
-                        </div>
-                        <div class="swiper-container1">
-                            <div class="swiper-wrapper flex items-center">
-                                
+                      </div>
+                  </div>
+  
+                  <div class="w-full relative">
+                      <div class="circle absolute top-[5%] left-[31%]">
+                        <img src="assets/images/section-8-middle-image.png" alt="gallery circle" class="w-9/12 hidden lg:block">
+                      </div>
+                      <div class="swiper-container1">
+                          <div class="swiper-wrapper flex items-center">
+                              
+                              <div class="swiper-slide relative overflow-hidden">  
+                                  <div class="">
+                                    <div class="relative  flex overflow-hidden justify-center">
+                                      <div class="middle absolute top-[30%] left-[47%] ">
+                                          <img src="assets/images/box.png" alt="box">
+                                      </div>
+                                      <div class="middle absolute top-[0%] left-[49.5%] ">
+                                        <img src="assets/images/gallery-line.png" alt="box">
+                                      </div>
+                                      <div class="">
+                                        <img src="assets/images/section-9-image-middle1.png" alt="Before Image" class=" shadow-md w-full">
+                                        <div class="absolute bottom-0 left-[3%] md:left-[0%] bg-black text-white text-sm px-3 py-1 raleway">Before</div>
+                                      </div>
+                                      <div class="">
+                                        <img src="assets/images/section-9-middleimage2.png" alt="After Image" class=" shadow-md">
+                                        <div class="absolute bottom-0 right-[3.2%] md:right-[0%] bg-black text-white text-sm px-4 py-1 raleway">After</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
                                 <div class="swiper-slide">
-                                    <div class="">
-                                      <div class="relative  flex overflow-hidden">
-                                        <div class="middle absolute top-[30%] left-[47%] ">
-                                            <img src="assets/images/box.png" alt="box">
-                                        </div>
-                                        <div class="middle absolute top-[0%] left-[49.5%] ">
-                                          <img src="assets/images/gallery-line.png" alt="box">
-                                        </div>
-                                        <div class="">
-                                          <img src="assets/images/section-9-image-middle1.png" alt="Before Image" class=" shadow-md w-full">
-                                          <div class="absolute bottom-0 left-0 bg-black text-white text-sm px-3 py-1 raleway">Before</div>
-                                        </div>
-                                        <div class="">
-                                          <img src="assets/images/section-9-middleimage2.png" alt="After Image" class=" shadow-md">
-                                          <div class="absolute bottom-0 right-0 bg-black text-white text-sm px-4 py-1 raleway">After</div>
-                                        </div>
+                                  <div class="">
+                                    <div class="gallery-img flex justify-center">
+                                        <img src="assets/images/section-9-image-2.png" alt="Before Image" class=" shadow-md w-10/12">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="">
+                                    <div class="gallery-img flex justify-center">
+                                        <img src="assets/images/section-9-image-1.png" alt="Before Image" class=" shadow-md w-10/12">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide relative overflow-hidden">  
+                                  <div class="">
+                                    <div class="relative  flex overflow-hidden justify-center">
+                                      <div class="middle absolute top-[30%] left-[47%] ">
+                                          <img src="assets/images/box.png" alt="box">
+                                      </div>
+                                      <div class="middle absolute top-[0%] left-[49.5%] ">
+                                        <img src="assets/images/gallery-line.png" alt="box">
+                                      </div>
+                                      <div class="">
+                                        <img src="assets/images/section-9-image-middle1.png" alt="Before Image" class=" shadow-md w-full">
+                                        <div class="absolute bottom-0 left-[3%] md:left-[0%] bg-black text-white text-sm px-3 py-1 raleway">Before</div>
+                                      </div>
+                                      <div class="">
+                                        <img src="assets/images/section-9-middleimage2.png" alt="After Image" class=" shadow-md">
+                                        <div class="absolute bottom-0 right-[3.2%] md:right-[0%] bg-black text-white text-sm px-4 py-1 raleway">After</div>
                                       </div>
                                     </div>
                                   </div>
-                                  <div class="swiper-slide">
-                                    <div class="">
-                                      <div class="gallery-img flex justify-center">
-                                          <img src="assets/images/section-9-image-2.png" alt="Before Image" class=" shadow-md w-10/12">
-                                      </div>
+                              </div>
+                                <div class="swiper-slide">
+                                  <div class="">
+                                    <div class="gallery-img flex justify-center">
+                                        <img src="assets/images/section-9-image-1.png" alt="Before Image" class=" shadow-md w-10/12">
                                     </div>
                                   </div>
-                                  <div class="swiper-slide">
-                                    <div class="">
-                                      <div class="gallery-img flex justify-center">
-                                          <img src="assets/images/section-9-image-1.png" alt="Before Image" class=" shadow-md w-10/12">
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="swiper-slide">
-                                    <div class="">
-                                      <div class="relative  flex overflow-hidden">
-                                        <div class="middle absolute top-[30%] left-[47%] ">
-                                            <img src="assets/images/box.png" alt="box">
-                                        </div>
-                                        <div class="middle absolute top-[0%] left-[49.5%] ">
-                                          <img src="assets/images/gallery-line.png" alt="box">
-                                        </div>
-                                        <div class="">
-                                          <img src="assets/images/section-9-image-middle1.png" alt="Before Image" class=" shadow-md">
-                                          <div class="absolute bottom-0 left-0 bg-black text-white text-sm px-3 py-1 raleway">Before</div>
-                                        </div>
-                                        <div class="">
-                                          <img src="assets/images/section-9-middleimage2.png" alt="After Image" class=" shadow-md">
-                                          <div class="absolute bottom-0 right-0 bg-black text-white text-sm px-4 py-1 raleway">After</div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="swiper-slide">
-                                    <div class="">
-                                      <div class="gallery-img flex justify-center">
-                                          <img src="assets/images/section-9-image-1.png" alt="Before Image" class=" shadow-md w-10/12">
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                                </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
           
           
      
@@ -1108,18 +1119,40 @@
         
 
         var swiper1 = new Swiper('.swiper-container1', {
-          loop: true,
-          navigation: {
-            nextEl: '.swipers-button-next1',
-            prevEl: '.swipers-button-prev1',
-          },
-          slidesPerView: 3,
-          spaceBetween: 30,
-          centeredSlides: true,
-          autoplay: {
-            delay: 5000,
-          },
+            
+            loop: true,
+            navigation: {
+                nextEl: '.swipers-button-next1',
+                prevEl: '.swipers-button-prev1',
+            },
+            slidesPerView: 3, // Default number of slides to show
+            spaceBetween: 30, // Default space between slides
+            centeredSlides: true,
+            autoplay: {
+                delay: 5000,
+            },
+            breakpoints: {
+                // Define settings for specific screen widths
+                1024: { // For screens 1024px and wider
+                slidesPerView: 3,
+                spaceBetween: 30,
+                },
+                768: { // For screens between 768px and 1024px
+                slidesPerView: 2,
+                spaceBetween: 20,
+                },
+                480: { // For screens between 480px and 768px
+                slidesPerView: 1,
+                spaceBetween: 10,
+                },
+                320: { // For very small screens (mobile)
+                slidesPerView: 1,
+                spaceBetween: 5,
+                },
+            },
         });
+       
+        
         var swiper1 = new Swiper('.swiper-container2', {
           loop: true,
           navigation: {
