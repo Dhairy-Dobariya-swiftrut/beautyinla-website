@@ -54,11 +54,17 @@ img{
     background-color: #EBFFFF;
 }
 
-
+header{
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
 .nav-bar{
     width: 100%;
-    position: absolute !important;
+    position: sticky !important;
     z-index: 99;
+    top: 0;
   }
 
 
@@ -183,12 +189,19 @@ img{
 
 
 
-@media (max-width: 768px) {
+.bg-img-header1{
+    background-color: #0F0F0F;
+}
+
+@media (max-width: 768px) { 
     .bg-img-header {
         background-color: #0F0F0F;
     }
-}
-@media (max-width: 1024px){
+} 
+/* For small and medium screens */
+
+@media (max-width: 1024px) {
+
     .bg-img-header {
         background-color: #0F0F0F;
     }

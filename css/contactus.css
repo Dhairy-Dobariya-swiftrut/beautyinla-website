@@ -56,12 +56,18 @@ img{
 
  /* header  */
 
- .nav-bar{
+ header{
+    position: absolute;
+    top: 0;
+    z-index: 100;
     width: 100%;
-    position: absolute !important;
+}
+.nav-bar{
+    width: 100%;
+    position: sticky !important;
     z-index: 99;
+    top: 0;
   }
-
 
 /* main banner  */
 
@@ -85,6 +91,11 @@ img{
 .bg-footer{
     background-color: #0F0F0F;
 }
+
+.bg-img-header1{
+    background-color: #0F0F0F;
+}
+
 
 
 @media (max-width: 768px) {

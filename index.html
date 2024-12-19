@@ -1293,6 +1293,20 @@
           },
         });
       </script>
+            <script>
+              window.onscroll = function () {
+        let header = document.querySelector("header");
+        if (window.pageYOffset > 0) {
+          header.classList.add("sticky");
+          header.classList.add("bg-img-header1");
+          
+        } else {
+          header.classList.remove("sticky");
+          header.classList.remove("bg-img-header1");
+        }
+      };
+  
+        </script>
   </body>
   
 </html>
