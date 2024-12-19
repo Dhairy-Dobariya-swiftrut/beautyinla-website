@@ -107,3 +107,15 @@ img{
     background-color: #EBFFFF;
 
 } 
+
+
+@media (max-width: 768px) {
+    .bg-img-header {
+        background-color: #0F0F0F;
+    }
+}
+@media (max-width: 1024px){
+    .bg-img-header {
+        background-color: #0F0F0F;
+    }
+}
