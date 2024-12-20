@@ -193,6 +193,12 @@ header{
     background-color: #0F0F0F;
 }
 
+#accordion-collapsde h2 button {
+
+    background-color: #EBFFFF;
+
+} 
+
 @media (max-width: 768px) { 
     .bg-img-header {
         background-color: #0F0F0F;
