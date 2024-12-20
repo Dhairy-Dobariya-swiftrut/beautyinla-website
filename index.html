@@ -73,7 +73,16 @@
     <main>
 
         <!-- main-banner  -->
-        <div class="swiper-container3 overflow-hidden ">
+        <div class="swiper-container3 overflow-hidden relative">
+          <div class="btn absolute z-50 bottom-[-80%] md:bottom-[25%] left-[10%] block">
+            <div class="flex items-center justify-center mt-4 space-x-4 relative items-center">
+              <button id="swipers-button-next3" class="swipers-button-prev3 text-white text-lg disabled:opacity-50"><</button><img src="assets/images/arrow-line.png" alt="" class="max-w-full mt-1">
+
+              <div id="pagination" class="text-white font-medium absolute top-[10%]">1/4</div>
+              <button id="swipers-button-prev3" class="swipers-button-next3 text-white text-lg disabled:opacity-50">></button>
+            </div>
+          </div>
+
             <div class="swiper-wrapper">
                 <div class="swiper-slide relative z-0">
                     <section>
@@ -122,7 +131,7 @@
                                                         <p class="mr-3 text-white relative z-40"></p>
                                                         <p class="text-white relative z-20 -ml-12 raleway px-2  heading-color">Browse our craft</p>
 
-                                                        <div class="btn absolute bottom-[-80%] md:bottom-[-150%]  left-0 block ">
+                                                        <!-- <div class="btn absolute bottom-[-80%] md:bottom-[-150%]  left-0 block ">
                                                           <div class="flex items-center justify-center mt-4 space-x-4 relative items-center">
                                                             <button id="swipers-button-next3" class="swipers-button-prev3 text-white text-lg disabled:opacity-50"><</button><img src="assets/images/arrow-line.png" alt="" class="max-w-full mt-1">
                                                             <div class="flex ">
@@ -135,7 +144,7 @@
                                                             <div id="pagination" class="text-white font-medium absolute top-[10%]">1/4</div>
                                                             <button id="swipers-button-prev3" class="swipers-button-next3 text-white text-lg disabled:opacity-50">></button>
                                                           </div>
-                                                        </div>
+                                                        </div> -->
                                                     </div>
                                                 </div>
                                                 <div class="banner-second-image1 mt-6 xl:-mt-36 order-first xl:order-last">
@@ -196,7 +205,7 @@
                                                       <p class="mr-3 text-white relative z-20"></p>
                                                       <p class="text-white relative z-20 -ml-12 raleway px-2  heading-color">Browse our craft</p>
 
-                                                      <div class="btn absolute bottom-[-80%] md:bottom-[-150%]  left-0 block ">
+                                                      <!-- <div class="btn absolute bottom-[-80%] md:bottom-[-150%]  left-0 block ">
                                                         <div class="flex items-center justify-center mt-4 space-x-4 relative items-center">
                                                           <button id="swipers-button-prev3" class="swipers-button-prev3 text-white text-lg disabled:opacity-50"><</button><img src="assets/images/arrow-line.png" alt="" class="max-w-full mt-1">
                                                           <div class="flex ">
@@ -210,7 +219,7 @@
                                                           <button id="swipers-button-next3" class="swipers-button-next3 text-white text-lg disabled:opacity-50">></button>
                                                     
                                                         </div>
-                                                      </div>
+                                                      </div> -->
                                                   </div>
                                               </div>
                                               <div class="banner-second-image1 mt-6 xl:-mt-36 order-first xl:order-last">
@@ -271,7 +280,7 @@
                                                       <p class="mr-3 text-white relative z-20"></p>
                                                       <p class="text-white relative z-20 -ml-12 raleway px-2  heading-color">Browse our craft</p>
 
-                                                      <div class="btn absolute bottom-[-80%] md:bottom-[-150%]  left-0 block ">
+                                                      <!-- <div class="btn absolute bottom-[-80%] md:bottom-[-150%]  left-0 block ">
                                                         <div class="flex items-center justify-center mt-4 space-x-4 relative items-center">
                                                           <button id="swipers-button-next3" class="swipers-button-prev3 text-white text-lg disabled:opacity-50"><</button><img src="assets/images/arrow-line.png" alt="" class="max-w-full mt-1">
                                                           <div class="flex ">
@@ -284,7 +293,7 @@
                                                           <div id="pagination" class="text-white font-medium absolute top-[10%]">3/4</div>
                                                           <button id="swipers-button-prev3" class=" swipers-button-next3 text-white text-lg disabled:opacity-50">></button>
                                                         </div>
-                                                      </div>
+                                                      </div> -->
                                                   </div>
                                               </div>
                                               <div class="banner-second-image1 mt-6 xl:-mt-36 order-first xl:order-last">
@@ -346,7 +355,7 @@
                                                       <p class="mr-3 text-white relative z-20"></p>
                                                       <p class="text-white relative z-20 -ml-12 raleway px-2  heading-color">Browse our craft</p>
 
-                                                      <div class="btn absolute bottom-[-80%] md:bottom-[-150%]  left-0 block ">
+                                                      <!-- <div class="btn absolute bottom-[-80%] md:bottom-[-150%]  left-0 block ">
                                                         <div class="flex items-center justify-center mt-4 space-x-4 relative items-center">
                                                           <button id="swipers-button-next3" class="swipers-button-prev3 text-white text-lg disabled:opacity-50"><</button><img src="assets/images/arrow-line.png" alt="" class="max-w-full mt-1">
                                                           <div class="flex ">
@@ -359,7 +368,7 @@
                                                           <div id="pagination" class="text-white font-medium absolute top-[10%]">4/4</div>
                                                           <button id="swipers-button-prev3" class="swipers-button-next3 text-white text-lg disabled:opacity-50">></button>
                                                         </div>
-                                                      </div>
+                                                      </div> -->
                                                   </div>
                                               </div>
                                               <div class="banner-second-image1 mt-6 xl:-mt-36 order-first xl:order-last">
@@ -1291,20 +1300,48 @@
           speed: 1000,
         });
 
+        // var swiper2 = new Swiper('.swiper-container3', {
+        //     loop: true,
+        //     navigation: {
+        //       nextEl: '.swipers-button-next3',
+        //       prevEl: '.swipers-button-prev3',
+        //     },
+        //     slidesPerView: 1,
+        //     spaceBetween: 30,
+        //     centeredSlides: true,
+        //     autoplay: {
+        //       delay: 5000,
+        //     },
+        //     speed: 1000, // Set the transition speed in milliseconds (1000ms = 1 second)
+        // });
+
+
         var swiper2 = new Swiper('.swiper-container3', {
-            loop: true,
-            navigation: {
-              nextEl: '.swipers-button-next3',
-              prevEl: '.swipers-button-prev3',
-            },
-            slidesPerView: 1,
-            spaceBetween: 30,
-            centeredSlides: true,
-            autoplay: {
-              delay: 5000,
-            },
-            speed: 1000, // Set the transition speed in milliseconds (1000ms = 1 second)
-        });
+              loop: true,
+              navigation: {
+                nextEl: '.swipers-button-next3',
+                prevEl: '.swipers-button-prev3',
+              },
+              slidesPerView: 1,
+              spaceBetween: 30,
+              centeredSlides: true,
+              autoplay: {
+                delay: 5000,
+              },
+              speed: 1000,
+              on: {
+                slideChange: function () {
+                  // Get the total slides
+                  const totalSlides = this.slides.length - 2; // Subtract 2 to account for loop duplicates
+                  // Get the current slide index (adjusted for loop)
+                  const currentSlide = this.realIndex + 1; // Swiper uses 0-based index
+                  // Update the pagination text
+                  document.getElementById('pagination').textContent = `${currentSlide}/4`;
+                },
+              },
+      });
+
+
 
       </script>
             <script>
